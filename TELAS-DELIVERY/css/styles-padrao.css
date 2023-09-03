@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap');
+
+* {
+    font-family: 'Mukta Malar', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    /*unidade vh(a altura do viewport), permitindo que o body defina o minimo de altura com base na altura total de viewport do usuário*/
+}
+
+:root {
+    --background-clean: beige;
+    --cord-da-empresa: orange;
+}
+
+/* estilização do header - NAV */
+
+.cabecalho {
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+
+}
+
+.menu {
+    display: flex;
+}
+
+.barra .barra-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.barra-menu li {
+    list-style: none;
+    padding: 2rem;
+    color: antiquewhite;
+}
+
+.bi-file-person {
+    font-size: 30px;
+    color: var(--background-clean);
+
+}
+
+.bi-geo-alt {
+    font-size: 30px;
+    color: var(--background-clean);
+
+    .nome-localizacao {
+        font-size: 40px;
+        padding-left: 0;
+        padding-right: 5rem;
+    }
+}
+
+.bi-card-image {
+    font-size: 30px;
+    color: var(--background-clean);
+}
