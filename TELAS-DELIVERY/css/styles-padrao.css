@@ -47,6 +47,12 @@ body {
 
 }
 
+ul li#imagem-localizacao{
+    display: flex;
+    padding-right: 0;
+    padding-left: 5rem;
+    margin-right: .8rem;
+}
 .bi-geo-alt {
     font-size: 30px;
     color: var(--background-clean);
