@@ -12,8 +12,8 @@ body {
 }
 
 :root {
-    --background-clean: beige;
-    --cord-da-empresa: orange;
+    --background-clean: black;
+    --cor-da-empresa: white;
 }
 
 /* estilização do header - NAV */
@@ -38,7 +38,7 @@ body {
 .barra-menu li {
     list-style: none;
     padding: 2rem;
-    color: antiquewhite;
+    color: white;
 }
 
 .bi-file-person {
@@ -47,12 +47,13 @@ body {
 
 }
 
-ul li#imagem-localizacao{
+ul li#imagem-localizacao {
     display: flex;
     padding-right: 0;
     padding-left: 5rem;
     margin-right: .8rem;
 }
+
 .bi-geo-alt {
     font-size: 30px;
     color: var(--background-clean);
@@ -62,7 +63,7 @@ ul li#imagem-localizacao{
         padding-left: 0;
         padding-right: 5rem;
     }
-    
+
 }
 
 .bi-flower1 {
@@ -74,4 +75,65 @@ ul li#imagem-localizacao{
     font-size: 25px;
     padding-left: 0;
     padding-right: 5rem;
+}
+
+/*Estilização footer */
+
+.footer {
+    background-color: var(--background-clean);
+    margin-top: 5rem;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer-card a{
+    text-decoration: none;
+    text-align: center;
+    color: red;
+}
+
+.footer-card li{
+    list-style: none;
+}
+.footer-item{
+    margin: 5rem;
+    color: red;
+    text-align: center;
+
+}
+
+i.bi-house-door-fill{
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+i.bi-person{
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+}
+
+i.bi-receipt{
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+}
+
+i.bi-cart{
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+}
+i.bi-stickies{
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+.footer-nome-item{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
 }
