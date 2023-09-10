@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-    --background-clean: black;
+    --background-clean: #488b29;
     --cor-da-empresa: white;
 }
 
@@ -20,8 +20,7 @@ body {
 
 .cabecalho {
     width: 100%;
-    background-image: url(https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
-
+    background-color: #488b29;
 }
 
 .menu {
@@ -38,12 +37,12 @@ body {
 .barra-menu li {
     list-style: none;
     padding: 2rem;
-    color: white;
+    color: black;
 }
 
 .bi-file-person {
     font-size: 30px;
-    color: var(--background-clean);
+    color: var(--cor-da-empresa);
 
 }
 
@@ -56,7 +55,7 @@ ul li#imagem-localizacao {
 
 .bi-geo-alt {
     font-size: 30px;
-    color: var(--background-clean);
+    color: var(--cor-da-empresa);
 
     .nome-localizacao {
         font-size: 40px;
@@ -68,13 +67,77 @@ ul li#imagem-localizacao {
 
 .bi-flower1 {
     font-size: 30px;
-    color: var(--background-clean);
+    color: var(--cor-da-empresa);
 }
 
 .local {
     font-size: 25px;
     padding-left: 0;
     padding-right: 5rem;
+    color: white;
+}
+
+
+/* Estilização da seção das mensagens */
+
+section#mensagens-inicio {
+    padding: 2rem;
+    background-color: var(--background-clean);
+
+
+
+
+}
+
+#nome-empresa {
+    font-style: bold;
+    font-size: 50px;
+    color: var(--cor-da-empresa);
+    margin-bottom: .5rem;
+
+}
+
+.mensagem {
+    color: var(--cor-da-empresa);
+    font-size: 25px;
+
+}
+
+/* Estilização da seção INPUT */
+
+
+section#input{
+    display: flex;
+    padding-top: .5rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+i.bi-search{
+    position: absolute;
+    color: var(--background-clean);
+    padding-top: .2rem;
+    padding-left: 3rem;
+    font-size: 30px;
+
+}
+
+#input-text{
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    border: 2rem none;
+    padding: 1.2rem 0 1.2rem;
+    padding-left: 7rem;
+    text-align: center;
+}
+
+input:focus{
+    outline: 0;
+}
+::-webkit-input-placeholder{
+    color: #488b29;
 }
 
 /*Estilização footer */
@@ -90,50 +153,51 @@ ul li#imagem-localizacao {
     align-items: baseline;
 }
 
-.footer-card a{
+.footer-card a {
     text-decoration: none;
     text-align: center;
-    color: red;
+
 }
 
-.footer-card li{
+.footer-card li {
     list-style: none;
 }
-.footer-item{
+
+.footer-item {
     margin: 5rem;
-    color: red;
     text-align: center;
 
 }
 
-i.bi-house-door-fill{
+i.bi-house-door-fill {
     font-size: 35px;
     color: var(--cor-da-empresa);
 
 }
 
-i.bi-person{
+i.bi-person {
     font-size: 35px;
     color: var(--cor-da-empresa);
 }
 
-i.bi-receipt{
+i.bi-receipt {
     font-size: 35px;
     color: var(--cor-da-empresa);
 }
 
-i.bi-cart{
+i.bi-cart {
     font-size: 35px;
     color: var(--cor-da-empresa);
 }
-i.bi-stickies{
+
+i.bi-stickies {
     font-size: 35px;
     color: var(--cor-da-empresa);
 
 }
 
-.footer-nome-item{
+.footer-nome-item {
     font-size: 20px;
     font-weight: 600;
-    color: grey;
+    color: var(--cor-da-empresa)
 }
