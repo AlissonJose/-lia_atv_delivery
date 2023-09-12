@@ -233,6 +233,72 @@ h3.nome-do-produto {
     margin-bottom: 1.3rem;
 }
 
+/* Estilização do VERMAIS */
+
+
+div#ver-mais {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+div#ver-mais a {
+    color: var(--background-clean);
+    text-decoration: none;
+    margin: .8rem 2rem;
+}
+
+
+/*Estilização AVALIAÇÃO */
+
+
+section#avaliacao {
+    text-align: center;
+    border: .1rem solid var(--background-clean);
+    border-radius: 2rem;
+    margin: auto;
+
+    padding: 1rem;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font: bold 1rem sans-serif;
+
+}
+
+#titulo-avaliacao {
+    font-size: 25px;
+    color: var(--background-clean);
+
+}
+
+#frase-avaliacao {
+    font-size: 18px;
+    color: grey;
+    padding: 1.2rem;
+    margin: auto;
+
+}
+
+.bi-hand-thumbs-down{
+    font-size: 30px;
+    color: var(--background-clean);
+}
+
+.bi-hand-thumbs-up{
+    font-size: 30px;
+    color: var(--background-clean);
+
+}
+
+
+
+
+
+
 /*Estilização FOOTER */
 
 .footer {
