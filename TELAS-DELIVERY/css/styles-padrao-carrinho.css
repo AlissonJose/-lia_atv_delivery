@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap');
+
+* {
+    font-family: 'Mukta Malar', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    /*unidade vh(a altura do viewport), permitindo que o body defina o minimo de altura com base na altura total de viewport do usuário*/
+}
+
+:root {
+    --background-clean: #488b29;
+    --cor-da-empresa: white;
+}
+
+
+
+/* estilização do header - NAV */
+
+.cabecalho {
+    width: 100%;
+    background-color: #488b29;
+}
+
+.menu {
+    display: flex;
+}
+
+.barra .barra-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.barra-menu li {
+    list-style: none;
+    padding: 2rem;
+    color: black;
+}
+
+.bi-geo-alt {
+    font-size: 30px;
+    color: var(--cor-da-empresa);
+
+    .nome-localizacao {
+        font-size: 40px;
+        padding-left: 0;
+        padding-right: 5rem;
+    }
+
+}
+
+.bi-flower1 {
+    font-size: 30px;
+    color: var(--cor-da-empresa);
+}
+
+
+.bi-list {
+    font-size: 30px;
+    color: var(--cor-da-empresa);
+}
+
+.local {
+    font-size: 25px;
+    padding-left: 0;
+    padding-right: 5rem;
+    color: white;
+}
+
+/* Estilização da seção das mensagens */
