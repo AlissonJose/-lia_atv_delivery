@@ -20,6 +20,7 @@ body {
 
 /* estilização do header - NAV */
 
+
 .cabecalho {
     width: 100%;
     background-color: #488b29;
@@ -73,3 +74,16 @@ body {
 }
 
 /* Estilização da seção das mensagens */
+
+section#produtos-carrinho{
+    padding: 2rem;
+    background-color: var(--cor-da-empresa);
+}
+
+.bi-chevron-double-left{
+    color: var(--background-clean);
+    font-size: 25px;
+
+}
+
+
