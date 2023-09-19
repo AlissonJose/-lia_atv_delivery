@@ -46,14 +46,14 @@ body {
 .bi-geo-alt {
     font-size: 30px;
     color: var(--cor-da-empresa);
-
+}
     .nome-localizacao {
         font-size: 40px;
         padding-left: 0;
         padding-right: 5rem;
     }
 
-}
+
 
 .bi-flower1 {
     font-size: 30px;
@@ -73,17 +73,100 @@ body {
     color: white;
 }
 
-/* Estilização da seção das mensagens */
-
-section#produtos-carrinho{
+section#produtos-carrinho {
     padding: 2rem;
     background-color: var(--cor-da-empresa);
 }
 
-.bi-chevron-double-left{
+/* Estilização da seção das mensagens */
+.nome-carrinho {
+    border: solid 2px var(--background-clean);
+    border-radius: 2rem;
+    display: flex;
+    font-weight: 600;
     color: var(--background-clean);
-    font-size: 25px;
+    font-size: 30px;
+    padding-top: .2rem;
+    padding-left: 50rem;
+    text-align: center;
 
 }
 
 
+/* Estilização da seção ícones do carrinho e volta */
+
+.bi-chevron-double-left {
+    color: var(--background-clean);
+    font-size: 30px;
+    padding-top: 4rem;
+    padding-left: 1rem;
+      
+    position: absolute;
+
+
+}
+
+
+i.bi-cart-x {
+    position: absolute;
+    color: var(--background-clean);
+    padding-top: .4rem;
+    padding-left: 103rem;
+    font-size: 50px;
+}
+
+/* Estilização da seção cards imagens */
+
+section#cards-produtos {
+    display: flex;
+}
+
+.card-produto {
+    display: flex;
+    margin: 3rem;
+    border-radius: 2rem;
+    border: solid 1px var(--background-clean);
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    align-content: center;
+}
+
+.card-produto img {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div#nome-produto {
+    position: absolute;
+    width: 65%;
+    margin: auto;
+    bottom: 20rem;
+    text-align: center;     
+    font-size: 20px;
+    color: var(--background-clean);
+}
+
+i.bi-plus-square{
+    font-size: 35px;
+
+}
+
+i.bi-dash-square{
+    font-size: 35px;
+    color: #488b29;
+    display: flex;
+    padding-right: 40rem;
+    top: 10rem;
+}
+
+i.bi-trash{
+    font-size: 40px;
+    color: red;
+    display: flex;
+    padding-right: 10rem;
+    
+}
