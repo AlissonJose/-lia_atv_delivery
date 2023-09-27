@@ -149,7 +149,6 @@ section#cards-produtos {
 div#nome-produto {
     color: #488b29;
     font-size: 20px;
-    display: flex;
     align-items: center;
     font-weight: 600;
     text-align: center;
@@ -170,7 +169,7 @@ i.bi-dash-square {
 
 i.bi-trash {
 
-    display: block;
+
     color: red;
     font-size: 35px;
     padding-top: 23rem;
@@ -181,14 +180,8 @@ i.bi-trash {
 }
 
 .valor-unitario {
-    margin: auto;
-    justify-self: auto;
-    align-items: center;
-    justify-content: center;
-
-    padding-top: 10rem;
-    padding-right: 5rem;
-    display: block;
+    padding-bottom: 25rem;
+    padding-left: 10rem;
     font-size: 35px;
 }
 
@@ -227,4 +220,81 @@ section#desconto {
     padding-left: 1rem;
     text-align: center;
     color: rgb(72, 160, 13)
+}
+
+/* Estilização da seção desconto/pagamento*/
+
+#titulo-total {
+    display: block;
+    font-weight: 600;
+    font-size: 25px;
+    color: grey;
+    text-align: center;
+    padding-left: 58rem;
+    margin: auto;
+}
+
+#titulo-frete {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    padding-left: 60rem;
+    margin: auto;
+}
+
+#pagamento {
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    border: solid 1px var(--background-clean);
+    border-radius: 2rem;
+    width: 25%;
+    padding: 1.2rem 0 1.2rem;
+    padding-left: 3rem;
+    text-align: center;
+    color: rgb(72, 160, 13)
+}
+
+/*Estilização FOOTER */
+
+.footer {
+    background-color: var(--background-clean);
+    margin-top: 5rem;
+}
+
+
+.footer-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer-card a {
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.footer-card li {
+    list-style: none;
+}
+
+.footer-item {
+    margin: 5rem;
+    text-align: center;
+
+}
+
+i.bi-house-door-fill {
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+.footer-nome-item {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa)
 }
