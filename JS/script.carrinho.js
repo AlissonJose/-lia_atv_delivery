@@ -12,3 +12,6 @@ for(let i =0; i < excluir.length; i++){
 
 };
 };
+
+//Professora o funcionamento do JS não estar dando certo aqui no meu projeto. Já renomei as variáveis/tags e mesmo assim não funcionou//.
+

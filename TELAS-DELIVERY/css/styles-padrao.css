@@ -47,10 +47,12 @@ body {
 }
 
 ul li#imagem-localizacao {
+    align-items: center;
+    justify-content: center;
     display: flex;
     padding-right: 0;
-    padding-left: 5rem;
-    margin-right: .8rem;
+    padding-left: 3rem;
+    margin-right: .2rem;
 }
 
 .bi-geo-alt {
@@ -66,14 +68,18 @@ ul li#imagem-localizacao {
 }
 
 .bi-flower1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 2.8rem;
     font-size: 30px;
     color: var(--cor-da-empresa);
 }
 
 .local {
-    font-size: 25px;
-    padding-left: 0;
-    padding-right: 5rem;
+    font-size: 20px;
+    padding-left: 1.3rem;
+    padding-right: 3rem;
     color: white;
 }
 
