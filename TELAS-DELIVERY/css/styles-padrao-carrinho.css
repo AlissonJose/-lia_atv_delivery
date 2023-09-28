@@ -147,6 +147,7 @@ section#cards-produtos {
 /* Estilização texto/posição dos ícones */
 
 div#nome-produto {
+    display: flex;
     color: #488b29;
     font-size: 20px;
     align-items: center;
@@ -168,11 +169,12 @@ i.bi-dash-square {
 }
 
 i.bi-trash {
-
-
+    margin: auto;
+    text-align: center;
+    display: block;
     color: red;
     font-size: 35px;
-    padding-top: 23rem;
+    padding-top: 5rem;
     padding-right: 2rem;
 
 
@@ -180,8 +182,11 @@ i.bi-trash {
 }
 
 .valor-unitario {
-    padding-bottom: 25rem;
-    padding-left: 10rem;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding-top: 1.5rem;
+    padding-left: 5rem;
     font-size: 35px;
 }
 
@@ -297,4 +302,50 @@ i.bi-house-door-fill {
     font-size: 20px;
     font-weight: 600;
     color: var(--cor-da-empresa)
+}
+
+i.bi-emoji-smile {
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+.footer-nome-perfil {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa)
+}
+
+i.bi-receipt {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+.footer-nome-cupons {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa);
+    margin: auto;
+    text-align: center;
+
+}
+
+i.bi-stickies {
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+.footer-nome-pedidos {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa);
+    margin: auto;
+    text-align: center;
+
 }
