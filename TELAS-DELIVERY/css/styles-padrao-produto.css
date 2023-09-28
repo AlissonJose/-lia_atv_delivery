@@ -15,6 +15,7 @@ body {
     --background-clean: #488b29;
     --cor-da-empresa: white;
 }
+
 /* estilização do header - NAV */
 
 .cabecalho {
@@ -44,12 +45,14 @@ body {
     color: var(--cor-da-empresa);
 
 }
+
 ul li#imagem-localizacao {
     display: flex;
     padding-right: 0;
     padding-left: 5rem;
     margin-right: .8rem;
 }
+
 .bi-geo-alt {
     font-size: 30px;
     color: var(--cor-da-empresa);
@@ -58,7 +61,7 @@ ul li#imagem-localizacao {
         font-size: 40px;
         padding-left: 0;
         padding-right: 5rem;
-    }   
+    }
 }
 
 .bi-flower1 {
@@ -76,4 +79,113 @@ ul li#imagem-localizacao {
     padding-left: 2.8rem;
     padding-right: 3rem;
     color: white;
+}
+
+/* Estilização da seção ícones do voltar/coração */
+
+.bi-chevron-double-left {
+    color: var(--background-clean);
+    font-size: 30px;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    position: absolute;
+}
+
+.bi-heart-fill {
+    position: absolute;
+    color: var(--background-clean);
+    padding-top: 4rem;
+    padding-left: 43rem;
+    font-size: 30px;
+}
+
+/* Estilização da seção card produto*/
+
+section#cards-produtos {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-produto {
+    justify-content: center;
+    display: flex;
+    margin: 2rem;
+    border-radius: 2rem;
+    border: solid 1px var(--background-clean);
+
+
+    width: 30%;
+
+}
+
+.card-produto img {
+
+    display: flex;
+    padding-top: 2rem;
+    width: 90%;
+    margin: auto;
+
+}
+
+
+/*estilizacao texto */
+.titulo-produto {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 4rem;
+    color: var(--background-clean);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 3rem;
+
+}
+
+.titulo {
+    color: gray;
+    text-align: justify;
+    font-family: 'Mukta Malar', Arial, Helvetica, sans-serif;
+    margin: auto;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Estilização posição dos ícones */
+i.bi-plus-square {
+    margin: auto;
+    display: flex;
+    padding-top: 4rem;
+    padding-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: var(--background-clean);
+    font-size: 28px;
+
+}
+
+i.bi-dash-square {
+    margin: auto;
+    position: relative;
+    color: var(--background-clean);
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.quantidade {
+    padding-top: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--background-clean);
 }
