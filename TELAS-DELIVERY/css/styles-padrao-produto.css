@@ -178,7 +178,7 @@ i.bi-dash-square {
     padding-bottom: 1rem;
 }
 
-.quantidade {
+.numero-produto {
     padding-left: 4rem;
     padding-bottom: .8rem;
     display: flex;
@@ -329,7 +329,7 @@ i.bi-stickies {
     color: var(--cor-da-empresa);
 }
 
-.footer-pedidos {
+.footer-nome-pedidos {
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -337,3 +337,17 @@ i.bi-stickies {
     font-weight: 600;
     color: var(--cor-da-empresa);
 }
+
+i.bi-heart-fill{
+    text-shadow: 1px 1px var(--background-clean);
+    font-size: 25px;
+    color: var(--background-clean);
+}
+
+i.red{
+    color:red;
+}
+
+/*i.bi-heart-fill:hover{
+    color: var(--background-clean);
+}*/
