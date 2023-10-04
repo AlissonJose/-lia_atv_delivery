@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300&display=swap');
+
+* {
+    font-family: 'Mukta Malar', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*body estilização */
+
+body {
+    min-height: 100vh;
+    /*unidade vh(a altura do viewport), permitindo que o body defina o minimo de altura com base na altura total de viewport do usuário*/
+}
+
+/*padronização cores*/
+
+:root {
+    --background-clean: #488b29;
+    --cor-da-empresa: white;
+}
+
+
+
+/* estilização do header - NAV */
+
+.cabecalho {
+    width: 100%;
+    background-color: #488b29;
+}
+
+.menu {
+    display: flex;
+}
+
+.barra .barra-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.barra-menu li {
+    list-style: none;
+    padding: 2rem;
+    color: black;
+}
+
+
+ul li#imagem-localizacao {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-right: 0;
+    padding-left: 3rem;
+    margin-right: .2rem;
+}
+
+.bi-geo-alt {
+    font-size: 30px;
+    color: var(--cor-da-empresa);
+}
+
+
+.nome-localizacao {
+    font-size: 40px;
+    padding-left: 0;
+    padding-right: 5rem;
+}
+
+
+
+li .bi-list {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 2.8rem;
+    font-size: 30px;
+    color: var(--cor-da-empresa);
+}
+
+
+
+.local {
+    font-size: 20px;
+    padding-left: 1.3rem;
+    padding-right: 3rem;
+    color: white;
+}
+
+li .bi-file-person {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 2.8rem;
+    font-size: 30px;
+    color: var(--cor-da-empresa);
+}
+
+
+/* Estilização da seção das mensagens */
+
+section#mensagens-inicio {
+    padding: 2rem;
+    background-color: var(--background-clean);
+
+
+
+
+}
+
+#nome-login {
+    top: 2rem;
+    margin: auto;
+    position: relative;
+    left: 2rem;
+    width: 15%;
+    justify-content: center;
+    border-radius: 2rem;
+    border: solid 1px var(--background-clean);
+    display: flex;
+    color: var(--background-clean);
+    font-size: 25px;
+
+}
+
+img {
+    left: 2rem;
+    position: relative;
+    top: 2rem;
+    margin: auto;
+    display: flex;
+    height: 205px;
+    width: 205px;
+}
+
+#input-text[type=text] {
+
+    margin: auto;
+    font-size: 16px;
+    border: solid 1px var(--background-clean);
+    border-radius: 2rem;
+    width: 12%;
+    display: flex;
+    position: relative;
+    left: 2rem;
+    text-align: center;
+    color: var(--background-clean)
+}
+
+#input-password[type=password] {
+
+    margin: auto;
+    font-size: 16px;
+    border: solid 1px var(--background-clean);
+    border-radius: 2rem;
+    width: 12%;
+    display: flex;
+    position: relative;
+    left: 2rem;
+    text-align: center;
+    color: var(--background-clean)
+}
