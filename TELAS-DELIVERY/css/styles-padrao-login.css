@@ -124,18 +124,22 @@ section#mensagens-inicio {
 
 }
 
+
+/*Estilização seção login */
+
+
 img {
     left: 2rem;
     position: relative;
-    top: 2rem;
+    top: 5rem;
     margin: auto;
     display: flex;
-    height: 205px;
-    width: 205px;
+    height: 185px;
+    width: 185px;
 }
 
 #input-text[type=text] {
-
+    top: 7rem;
     margin: auto;
     font-size: 16px;
     border: solid 1px var(--background-clean);
@@ -149,7 +153,7 @@ img {
 }
 
 #input-password[type=password] {
-
+    top: 8rem;
     margin: auto;
     font-size: 16px;
     border: solid 1px var(--background-clean);
@@ -161,3 +165,190 @@ img {
     text-align: center;
     color: var(--background-clean)
 }
+
+h1 {
+    font-weight: 200;
+    color: var(--background-clean);
+    top: 6.5rem;
+    left: 51.5rem;
+    position: relative;
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Mukta Malar', Arial, Helvetica, sans-serif;
+}
+
+p.senha-usuario {
+    top: 7.8rem;
+    left: 51.5rem;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    font-weight: 200;
+    margin: auto;
+    color: var(--background-clean);
+}
+
+button.input-login {
+    font-weight: 600;
+    justify-content: center;
+    top: 10rem;
+    margin: auto;
+    font-size: 16px;
+    border: solid 1px var(--background-clean);
+    border-radius: 2rem;
+    width: 10%;
+    display: flex;
+    position: relative;
+    left: 2rem;
+    text-align: center;
+    color: var(--background-clean)
+}
+
+/*Estilização FOOTER */
+
+
+.footer {
+    height: 500px;
+    top: 10rem;
+    position: relative;
+    display: flex;
+    background-color: var(--background-clean);
+    margin-top: 5rem;
+}
+
+.footer-card a {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.footer-card {
+    margin: auto;
+    position: absolute;
+    top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+.footer-card li {
+    list-style: none;
+}
+
+
+.footer-item li {
+    margin: 5rem;
+    text-align: center;
+
+}
+
+.bi-house-door-fill {
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+.footer-nome-item {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa)
+}
+
+
+i.bi-emoji-smile {
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+}
+
+p.footer-nome-perfil {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa)
+}
+
+i.bi-receipt {
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+}
+
+p.footer-nome-cupons {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa)
+}
+
+p.footer-nome-pedidos {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-da-empresa)
+}
+
+i.bi-stickies {
+    font-size: 35px;
+    color: var(--cor-da-empresa);
+
+}
+
+
+
+
+
+
+/* usando media queries para transformar nossa page acessível a telas menores */
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+    }
+
+    i.bi-geo-alt,
+    .nome-localizacao,
+    i.bi .bi-flower1 {
+        display: none;
+    }
+
+    ul.footer-card {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .footer-card a {
+        width: 100%;
+
+    }
+
+    i.bi-search {
+        position: absolute;
+        margin-right: 3rem;
+        padding-left: 2rem;
+    }
+
+    #categoria-ul {
+        flex-wrap: wrap;
+    }
+
+    #cards-produtos {
+        flex-wrap: wrap;
+
+    }
+
+    div.card-produto {
+        width: 100%;
+    }
+
+    span#frase-avalicao {
+        display: none;
+    }
+}
+
+;
