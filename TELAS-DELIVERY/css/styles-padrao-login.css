@@ -138,7 +138,7 @@ img {
     width: 185px;
 }
 
-#input-text[type=text] {
+#meuInput[type=text] {
     top: 2rem;
     margin: auto;
     font-size: 16px;
@@ -152,7 +152,7 @@ img {
     color: var(--background-clean)
 }
 
-#input-password[type=password] {
+#meuInputPassword[type=password] {
     top: 3rem;
     margin: auto;
     font-size: 16px;
@@ -342,3 +342,24 @@ i.bi-stickies {
 }
 
 ;
+
+/*seção de inserção do HTML */
+
+/*ele não tá acessando o estilo aqui no css */
+
+.card-teste{
+    
+    position: absolute;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+    background-color:#488b29;
+    border: grey 2px solid;
+    border-radius: 2rem;
+    z-index: 999;
+    font-size: 16px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+
